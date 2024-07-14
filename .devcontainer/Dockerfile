@@ -2,7 +2,7 @@
 FROM python:3.12 AS base
 
 # Label the image
-LABEL maintainer="James Joseph <james.joseph@aspentech.com>"
+LABEL maintainer="James J"
 LABEL version="1.0"
 LABEL description="This is a devcontainer image for python3 development for Control System"
 
