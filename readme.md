@@ -9,7 +9,6 @@ This repository contains the configuration for a development container tailored 
 - [Usage](#usage)
 - [Libraries](#libraries)
 - [VS Code IDE](#vs-code-ide)
-- [Maintainer](#maintainer)
 - [License](#license)
 
 ## Features
@@ -27,8 +26,8 @@ To build and use this development container, you need Docker and Visual Studio C
 1. **Clone the repository**:
 
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/jamestjat/Py_Control.git
+    cd Py_Control
     ```
 
 2. **Build and run the container**:
@@ -66,13 +65,6 @@ The development container is configured to enhance your development experience w
 1. **Open Terminal**: You can open the integrated terminal in VS Code by pressing `` ` ``, or from the menu: `Terminal > New Terminal`.
 2. **Python Development**: The Python extension provides features such as IntelliSense, code navigation, linting, and debugging.
 3. **Jupyter Notebooks**: You can open and edit Jupyter notebooks directly within VS Code. Use the Jupyter extension to run and manage your notebooks.
-
-## Maintainer
-
-This devcontainer configuration is maintained by:
-
-**James Joseph**  
-Email: [james.joseph@aspentech.com](mailto:james.joseph@aspentech.com)
 
 ## License
 
