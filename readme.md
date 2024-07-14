@@ -1,6 +1,6 @@
 # Devcontainer for Python Control System Development
 
-This repository contains the configuration for a development container tailored for Python control system development. The container is based on Ubuntu 22.04 LTS and includes essential tools and libraries for control system analysis and design.
+This repository contains the configuration for a development container tailored for Python control system development. The container is based on Docker official Python:3.12 image and includes essential tools and libraries for control system analysis and design.
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ This repository contains the configuration for a development container tailored 
 
 ## Features
 
-- **Base Image**: Ubuntu 22.04 LTS with Python 3.12.
+- **Base Image**: Python:3.12.
 - **Python Libraries**: `slycot`, `control`, `harold`, and `jupyterlab`.
 - **Development Tools**: `git`, `cmake`, `ninja-build`, `zsh`, `oh-my-zsh`, and `powerline fonts`.
 - **User Setup**: A `vscode` user with sudo privileges and zsh as the default shell.
